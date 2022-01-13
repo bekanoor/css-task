@@ -1,4 +1,136 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
+h1, h2 {
+    margin: 0;
+}
+
+.header {
+    max-width: 1060px;
+    margin: 0 auto;
+    
+    &__title {
+      
+        margin: 30px 0;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+.main {
+    max-width: 1060px;
+    margin: 0 auto;
+  
+}
+.main-wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.eric {
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.bold-text {
+    font-weight: bold;
+}
+.about-authors {
+
+    &_eric {
+    }
+    &__text {
+        max-width: 450px;
+        text-align: justify;
+    }
+
+    .about-authors__text_eric {
+        max-width: 500px;
+    }
+}
+.about-authors-title {
+    font-family: 'Comic Sans MS', Courier, monospace;
+}
+.image-container {
+    
+    &__item {
+        
+    }
+    &__item_eric {
+        max-width: 550px;
+        max-height: 450px;
+    }
+    &_eric {
+        margin-top: 10px;
+    }
+}
+
+.content {
+    font-family: 'Comic Sans MS', Courier, monospace;
+    text-align: center;
+    font-size: 42px;    
+}
+.content-summary {
+    margin-top: 200px;
+    text-align: center;
+}
+.list-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.table-container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.table {
+    &__row {
+        
+    }
+
+    &__column {
+    }
+
+    &__italic-text {
+        font-style: italic
+    }
+}
+/*------------*/
+.future-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    &__title {
+        max-width: 800px;
+        font-weight: bold;
+    }
+
+    &__text {
+        max-width: 800px;
+        text-align: justify;
+    }
+}
+.number-of-page {
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+
+    &__text {
+        color: #d0d0d0;
+    }
+}
+
+@import '_gridSupported';
