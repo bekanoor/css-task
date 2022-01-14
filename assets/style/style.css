@@ -57,11 +57,6 @@ body {
   }
 }
 
-.eric {
-  margin-top: 10px;
-  margin-left: 85px;
-}
-
 .bold-text {
   font-weight: bold;
 }
@@ -90,10 +85,6 @@ body {
 .about-authors-title {
   font-family: 'Comic Sans MS', Courier, monospace;
   font-size: 22px;
-}
-
-.about-authors_eric {
-  margin-left: 10px;
 }
 
 .image-container__item {
@@ -300,10 +291,6 @@ body {
     .main-wrapper {
       justify-items: start;
     }
-  }
-  .eric {
-    margin-top: 10px;
-    margin-left: 85px;
   }
   .content-summary {
     height: 80px;
