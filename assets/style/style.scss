@@ -1,180 +1,185 @@
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
 
-    @media (max-width: 600px) {
-        font-size: 14px;
-    }
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 .header {
-    max-width: 1060px;
-    margin: 0 auto;
-    &__title {
-        margin: 30px 0;
-        font-size: 32px;
-        font-weight: bold;
-        font-style: italic;
+  max-width: 1060px;
+  margin: 0 auto;
+  &__title {
+    margin: 30px 0;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
 
-        
-        @media (max-width: 1110px) {
-            text-align: center;
-        }
+    @media (max-width: 1110px) {
+      text-align: center;
     }
+  }
 }
 
 .main {
-    max-width: 1060px;
-    margin: 0 auto;
+  max-width: 1060px;
+  margin: 0 auto;
 }
 .main-wrapper {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 
-    @media (max-width: 1110px) {
-        flex-direction: column;
-        align-items: center;
-    }
+  @media (max-width: 1110px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .eric {
-    margin-top: 10px;
-    margin-left: 85px;
+  margin-top: 10px;
+  margin-left: 85px;
 }
 .bold-text {
-    font-weight: bold;
+  font-weight: bold;
 }
 .about-authors {
-    &__text {
-        max-width: 450px;
-        text-align: justify;
-    }
+  &__text {
+    max-width: 450px;
+    text-align: justify;
 
-    .about-authors__text_eric {
-        max-width: 500px;
-
-        @media (max-width: 700px) {
-            max-width: 450px;
-        }
+    @media (max-width: 375px) {
+      max-width: 350px;
     }
+  }
+
+  .about-authors__text_eric {
+    max-width: 500px;
+
+    @media (max-width: 700px) {
+      max-width: 450px;
+    }
+  }
 }
 .about-authors-title {
-    font-family: 'Comic Sans MS', Courier, monospace;
-    font-size: 22px;
+  font-family: 'Comic Sans MS', Courier, monospace;
+  font-size: 22px;
 }
 .about-authors_eric {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .image-container {
-    &__item {
-        max-width: 100%;
-    }
-    &__item_eric {
-        position: relative;
-        top: 0;
-        left: 30px;
-        width: 490px;
-        max-height: 450px;
+  &__item {
+    max-width: 100%;
+  }
+  &__item_eric {
+    position: relative;
+    top: 0;
+    left: 30px;
+    width: 490px;
+    max-height: 450px;
 
-        @media (max-width: 1110px) {
-            position: relative;
-            top: 0;
-            left: 0;
-            max-width: 450px;
-        }
+    @media (max-width: 1110px) {
+      position: relative;
+      top: 0;
+      left: 0;
+      max-width: 450px;
     }
+
+    @media (max-width: 375px) {
+      max-width: 100%;
+    }
+  }
 }
 
 .content {
-    font-family: 'Comic Sans MS', Courier, monospace;
-    text-align: center;
-    font-size: 42px;
-    
-    @media (max-width: 700px) {
-        font-size: 32px;
-    }
+  font-family: 'Comic Sans MS', Courier, monospace;
+  text-align: center;
+  font-size: 42px;
+
+  @media (max-width: 700px) {
+    font-size: 32px;
+  }
 }
 .content-summary {
-    margin-top: 200px;
-    text-align: center;
+  margin-top: 200px;
+  text-align: center;
 
-    @media (max-width: 1110px) {
-        margin-top: 100px;
-    }
+  @media (max-width: 1110px) {
+    margin-top: 100px;
+  }
+  @media (max-width: 650px) {
+    margin-top: 50px;
+  }
 }
 .list-container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .table-container {
-    display: flex;
-    justify-content: flex-end;
-    max-width: 1060px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1060px;
+  margin: 0 auto;
 
-    @media (max-width: 1110px) {
-        justify-content: center;
-    }
+  @media (max-width: 1110px) {
+    justify-content: center;
+  }
 }
 .table {
-    &__row {
-        
-    }
-
-    &__column {
-    }
-
-    &__italic-text {
-        font-style: italic
-    }
+  &__italic-text {
+    font-style: italic;
+  }
 }
 .future-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    
-    &__title {
-        max-width: 800px;
-        font-weight: bold;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 
-    &__text {
-        max-width: 800px;
-        text-align: justify;
+  &__title {
+    max-width: 800px;
+    font-weight: bold;
+  }
 
-        @media (max-width: 1110px) {
-            max-width: 600px;
-        }
-        @media (max-width: 650px) {
-            max-width: 500px;
-        }
-        @media (max-width: 550px) {
-            max-width: 450px;
-        }
-    }
+  &__text {
+    max-width: 800px;
+    text-align: justify;
 
     @media (max-width: 1110px) {
-        align-items: center;
+      max-width: 600px;
     }
+    @media (max-width: 650px) {
+      max-width: 500px;
+    }
+    @media (max-width: 550px) {
+      max-width: 450px;
+    }
+    @media (max-width: 375px) {
+      max-width: 350px;
+    }
+  }
+
+  @media (max-width: 1110px) {
+    align-items: center;
+  }
 }
 .number-of-page {
-    display: inline-block;
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 18px;
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
 }
 .footer {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 
-    &__text {
-        color: #d0d0d0;
-    }
+  &__text {
+    color: #d0d0d0;
+  }
 }
 
 @import '_gridSupported';
