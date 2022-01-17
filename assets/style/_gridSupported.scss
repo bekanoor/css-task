@@ -40,4 +40,22 @@
     grid-area: 5 / 1 / span 1 / span 2;
     justify-items: end;
   }
+  .image-container {
+    overflow: hidden;
+
+		&__item {
+		transition: 1s;
+
+      &:hover {
+        transform: scale(1.2); 
+      }
+		}
+  }
+  .number-of-page {
+    transition: 1s;
+    
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
 }
